@@ -1,0 +1,270 @@
+body {
+    background: #fff;
+    margin:0;
+    padding:10px;
+}
+
+.buttons {
+    webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #eee;
+    margin: 0 0 5px 0;
+    padding: 4px;
+    align-items: center;
+}
+
+.groupname {
+    float:left;
+    margin-top:5px;
+}
+
+.grouptitle {
+    margin:15px 0 5px 0;
+    padding: 5px;
+    border: 1px dotted rgba(239, 236, 233, 1);
+    webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(239, 236, 233, 0.3);
+}
+.grouptitle h3 {
+    margin: 0 0 0 12px;
+    padding: 0 5px;
+    font: 10pt "Helvetica", "Arial", sans-serif;
+    color: #6d6158;
+    text-transform: uppercase;
+    letter-spacing: 0.3pt;
+    position: relative;
+    top: -10pt;
+    background-color: #fff;
+    height: 7pt;
+    display: inline-block;
+}
+
+.buttons h4 {
+    font: 10pt "Helvetica Neue", "Arial", sans-serif;
+    font-weight: 200;
+    color: #6d6158;
+    margin:0;
+    float: left;
+    width: 5em;
+    line-height: 25px;
+}
+
+.button {
+	background-color:#33bdef;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    text-align: center;
+	font-size:11px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.3pt;
+	padding:2px 4px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b6178;
+    margin: 2px 0px 2px 8px;
+    min-width: 48px;
+    vertical-align: middle;
+}
+.button:hover {
+	background-color:#019ad2;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.providers-select {
+    width:100%;
+}
+.select2, .select2-results {
+    font: 10pt  "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+}
+.select2-selection--multiple {
+    min-height:20px !important;
+}
+
+table {
+    font-size:  10pt;
+    font-family: "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+    border-spacing: 0px;
+    table-layout: fixed;
+}
+
+table td {
+    padding: 4px !important;
+}
+
+div.note {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font: 10pt  "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;;
+}
+
+.note {
+    font-family: "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+    padding: 2px;
+}
+
+note, .notes_cell {
+    font-family: "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+    font-size: 8pt;
+    line-height: 8pt;
+}
+
+div.note p {
+    margin-bottom:7px;
+    font-size: 8pt;
+}
+
+td note {
+    color:#888;
+}
+
+.tableTitle {
+    font:  14pt Lato, "Helvetica", "Arial", sans-serif;
+    letter-spacing: 0.5pt;
+    color: #444;
+}
+
+table#the_table.wide_table {
+	font-size: 9pt  !important;
+	line-height:10pt;
+	table-layout: fixed;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    width: 1600px;
+}
+
+table#the_table.wide_table th {
+    width: 60px;
+    font-size: 9pt  !important;
+    line-height: 12pt !important;
+}
+
+
+table#the_table.wide_table th.double {
+	width: 100px;
+}
+
+table#the_table.wide_table th.triple {
+	width: 150px;
+}
+
+table#the_table.wide_table th.quadruple {
+	width: 200px;
+}
+
+table#the_table.wide_table th.largest {
+    width: 420px;
+}
+
+table tr.table_body:nth-child(odd) {
+    background-color: #efefef;
+}
+
+table tr.table_body:hover {
+    background-color: #cfdfef;
+}
+
+.scale_number {
+    display: inline-block;
+    -moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+    border: 1px solid #057fd0;
+    padding: 0px 4px 0 4px;
+}
+
+
+#table_div {
+    overflow-x: auto;
+}
+
+
+
+
+
+/*
+DC styles
+*/
+
+div.dc-chart {
+    padding: 10.2px 0;
+}
+
+.dc-chart g.row rect {
+    fill-opacity: 0.8;
+}
+.dc-chart g.row rect:hover{
+    fill-opacity: 1;
+}
+
+.dc-chart g.row text {
+    font-family: "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+    font-size: 9pt;
+    fill: #000;
+    text-shadow: rgba(250, 250, 250, 0.1) 0px -1px 0px , rgba(250, 250, 250, 0.2) 0px 1px 0px;
+}
+
+.dc-chart g.dc-legend text {
+    font-family: "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+    font-size: 9pt;
+}
+
+.dc-chart text {
+    font-family: "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+    font-size: 10pt;
+}
+
+.dc-chart title {
+    display: block;
+    position: relative;
+    top: -8pt;
+    height:0;
+    padding: 0 0 0 10px;
+    font-family: "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+    font-size: 10pt;
+    font-weight:bold;
+}
+
+#dc_pie_gpus g.row text {
+    text-anchor: end !important;
+    transform: translate(-17px,0);
+}
+
+#dc_providers .x.axis text {
+    text-anchor: end !important;
+    transform: rotate(-30deg);
+}
+
+#dc_providers .stack._0 text {
+    font-family: "Cabin Condensed", "Arial Narrow", "Helvetica", "Arial", sans-serif;
+    font-size: 10pt;
+}
+
+#dc_end {
+    clear:left;
+    width:100%;
+}
+
+.dc_group {
+    float: left;
+}
+
+#dc_gpus {
+    float:none;
+}
+
+#dc_memory {
+    float:none;
+}
+
